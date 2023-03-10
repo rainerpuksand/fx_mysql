@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="615.0" xmlns="http://javafx.com/javafx/8.0.172-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fx_mysql.StoredProc">
+    <children>
+        <TextField fx:id="txt3" layoutX="14.0" layoutY="174.0" promptText="Get this Subject"/>
+        <Button fx:id="btn5" layoutX="177.0" layoutY="254.0" mnemonicParsing="false" onAction="#btn5_click" text="RUN"/>
+        <TextField fx:id="txt1" layoutX="14.0" layoutY="84.0" prefHeight="25.0" prefWidth="247.0"
+                   promptText="Update the points to a teacher teaching C"/>
+        <Button fx:id="btn1" layoutX="277.0" layoutY="84.0" mnemonicParsing="false" onAction="#btn1_click" text="RUN"/>
+        <TextField fx:id="txt2" layoutX="14.0" layoutY="129.0" prefHeight="25.0" prefWidth="185.0"
+                   promptText="Enter Subject to get Teachers"/>
+        <TextField fx:id="txt5" layoutX="14.0" layoutY="214.0" prefHeight="25.0" prefWidth="324.0"
+                   promptText="Enter min Points &amp; find how many teachers are below that"/>
+        <Button fx:id="btn2" layoutX="212.0" layoutY="129.0" mnemonicParsing="false" onAction="#btn2_click" text="RUN"/>
+        <Label fx:id="ans2" layoutX="240.0" layoutY="260.0" text="Which subject has total Max points"/>
+        <Button fx:id="btn3" layoutX="333.0" layoutY="174.0" mnemonicParsing="false" onAction="#btn3_click" text="RUN"/>
+        <TextField fx:id="txt4" layoutX="173.0" layoutY="174.0" promptText="minimum Points"/>
+        <Button fx:id="btn4" layoutX="347.0" layoutY="214.0" mnemonicParsing="false" onAction="#btn4_click" text="RUN"/>
+        <Label fx:id="ans1" layoutX="398.0" layoutY="219.0" text="There are X teachers below Y points"/>
+
+    </children>
+</AnchorPane>
